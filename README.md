@@ -1,31 +1,14 @@
 # fibonacci
 
-
 ## python
- ```python
+```python
 # Program to display the Fibonacci sequence up to n-th term
 
-nterms = int(input("How many terms? "))
+n = 7 
+arr = [0, 1] 
 
-# first two terms
-n1, n2 = 0, 1
-count = 0
+for i in range(n - 2):
+    arr.append(arr[-1] + arr[-2])
 
-# check if the number of terms is valid
-if nterms <= 0:
-   print("Please enter a positive integer")
-# if there is only one term, return n1
-elif nterms == 1:
-   print("Fibonacci sequence upto",nterms,":")
-   print(n1)
-# generate fibonacci sequence
-else:
-   print("Fibonacci sequence:")
-   while count < nterms:
-       print(n1)
-       nth = n1 + n2
-       # update values
-       n1 = n2
-       n2 = nth
-       count += 1
+print(arr)
 ```
