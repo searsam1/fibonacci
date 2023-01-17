@@ -1,6 +1,6 @@
 # Program to display the Fibonacci sequence up to n-th term
 
-n = 7 
+n = 7
 arr = [0, 1] 
 
 for i in range(n - 2):
