@@ -1,4 +1,4 @@
-# fib.cpp
+[*fib.cpp](/fib.cpp)*
 ```cpp
 
 #include <iostream>
@@ -14,7 +14,7 @@ int main (){
     }
 }
 ```
-# fib.cs
+[*fib.cs](/fib.cs)*
 ```cs
 using System;
 namespace LogicalPrograms
@@ -44,7 +44,7 @@ namespace LogicalPrograms
     }
 }
 ```
-# fib.go
+[*fib.go](/fib.go)*
 ```go
 package main
 import (
@@ -62,7 +62,7 @@ func main() {
 	}
 }
 ```
-# fib.java
+[*fib.java](/fib.java)*
 ```java
 // Dynamic Programming approach for
 // Fibonacci Series
@@ -108,7 +108,7 @@ class fibonacci {
 	}
 }
 ```
-# fib.js
+[*fib.js](/fib.js)*
 ```js
 let n = 7
 let a = 0, b = 1, c = 1
@@ -122,7 +122,7 @@ for (let i = 1; i <= n; i++) {
     console.log(c);
 }
 ```
-# fib.py
+[*fib.py](/fib.py)*
 ```py
 # Program to display the Fibonacci sequence up to n-th term
 
