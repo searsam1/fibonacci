@@ -1,7 +1,6 @@
 
 cd fibs
 LANGS="$(ls)"
-$LANGS
 rm ../README.md
 
 for lang in $LANGS
