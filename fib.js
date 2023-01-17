@@ -1,19 +1,11 @@
-
-// FROM https://www.programiz.com/javascript/examples/fibonacci-series
-// FROM https://www.programiz.com/javascript/examples/fibonacci-series
-// program to generate fibonacci series up to n terms
-
-// take input from the user
-const number = parseInt(prompt('Enter the number of terms: '));
-let n1 = 0, n2 = 1, nextTerm;
+let n = 7
+let a = 0, b = 1, c = 1
 
 console.log('Fibonacci Series:');
 
-for (let i = 1; i <= number; i++) {
-    console.log(n1);
-    nextTerm = n1 + n2;
-    n1 = n2;
-    n2 = nextTerm;
+for (let i = 1; i <= n; i++) {
+    c = a + b;
+    a = b;
+    b = c;
+    console.log(c);
 }
-// FROM https://www.programiz.com/javascript/examples/fibonacci-series
-// FROM https://www.programiz.com/javascript/examples/fibonacci-series
