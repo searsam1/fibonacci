@@ -11,4 +11,5 @@ for i in range(n - 2):
     arr.append(arr[-1] + arr[-2])
 
 print(arr)
+# [0, 1, 1, 2, 3, 5, 8]
 ```
